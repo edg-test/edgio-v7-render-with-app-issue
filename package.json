@@ -1,0 +1,24 @@
+{
+  "name": "edgio-v7-render-with-app-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edg-test/edgio-v7-render-with-app-issue.git"
+  },
+  "dependencies": {
+    "@edgio/express": "7.2.7",
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "@edgio/cli": "7.2.7",
+    "@edgio/core": "7.2.7"
+  }
+}
