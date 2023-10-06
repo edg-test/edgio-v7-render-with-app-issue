@@ -12,6 +12,7 @@ Deployed: https://edg-test-edgio-v7-render-with-app-issue-default.edgio.link
 git clone git@github.com:edg-test/edgio-v7-render-with-app-issue.git
 cd edgio-v7-render-with-app-issue
 npm install
+npm install @edgio/cli@7.2.7 -g
 npx edgio deploy
 ```
 
